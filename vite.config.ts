@@ -24,7 +24,7 @@ export default defineConfig({
     lib: {
       entry: resolve(__dirname, './src/index.ts'),
       name: 'FaviconCrawler',
-      fileName: 'favicon-crawler',
+      fileName: 'icon-fetcher',
       formats: ['es', 'umd', 'cjs', 'iife']
     },
     rollupOptions: {

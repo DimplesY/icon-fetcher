@@ -1,39 +1,50 @@
-# favicon-crawler
+# icon-fetcher
+A vue component to get clear and consistent favicon of a website easily.
 
-This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+# installation
+## npm
+```shell
+npm install icon-fetcher
+```
+## pnpm
+```shell
+pnpm add icon-fetcher
 ```
 
-### Compile and Hot-Reload for Development
+# usage
+```typescript
+import { Favicon } from 'icon-fetcher'
 
-```sh
-pnpm dev
+<Favicon url="https://example.com" />
 ```
 
-### Type-Check, Compile and Minify for Production
+## props
+| Name | Type | Description |
+| ---- | ---- | ----------- |
+| `url` | `string` | The URL of the website to fetch the favicon for. |
+| `size` | `number` | The size of the favicon in pixels. Default is 32. |
+| `className` | `string` | A class name to apply to the element. |
+| `timeout` | `number` | The timeout in milliseconds for fetching the favicon. Default is 3000 (3 seconds). |
+| `lazy` | `boolean` | Whether to load the favicon lazily. Default is false. |
+| `border` | `boolean` | Whether to show a border around the favicon. Default is false. |
+| `padding` | `number` | The padding in pixels.(px) Default is 0. |
+| `background` | `string` | The background color of the favicon. Default is transparent.(in hex) |
+| `borderRadius` | `number` | The border radius in pixels.(px) Default is 0. |
+| `preferFallback` | `boolean` | Whether to prefer fallback service (e.g.Google's favicon service) over the website's own favicon. Default is false. |
 
-```sh
-pnpm build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+# npm package
+[icon-fetcher - npm](https://www.npmjs.com/package/icon-fetcher)
 
-```sh
-pnpm lint
-```
+
+# github repository
+[icon-fetcher - github](https://github.com/DimplesY/icon-fetcher)
+
+
+# license
+MIT License
+
+
+# Changelog
+- v0.0.1: Initial release (2025.2.27)

@@ -50,7 +50,7 @@ import { defineComponent, ref, computed, watch, onMounted, onUnmounted } from 'v
 import { getDomain } from './lib/utils'
 
 export default defineComponent({
-  name: 'favicon-crawler',
+  name: 'icon-fetcher',
   props: {
     url: {
       type: String,

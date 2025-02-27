@@ -1,12 +1,12 @@
 {
-  "name": "favicon-crawler",
+  "name": "icon-fetcher",
   "version": "0.0.1",
   "type": "module",
   "types": "./dist/index.d.ts",
-  "main": "./dist/favicon-crawler.umd.cjs",
-  "module": "./dist/favicon-crawler.js",
-  "unpkg": "./dist/favicon-crawler.iife.js",
-  "jsdelivr": "./dist/favicon-crawler.iife.js",
+  "main": "./dist/icon-fetcher.umd.cjs",
+  "module": "./dist/icon-fetcher.js",
+  "unpkg": "./dist/icon-fetcher.iife.js",
+  "jsdelivr": "./dist/icon-fetcher.iife.js",
   "sideEffects": false,
   "files": [
     "dist",
@@ -17,13 +17,13 @@
     ".": {
       "import": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/favicon-crawler.js"
+        "default": "./dist/icon-fetcher.js"
       },
       "require": {
         "types": "./dist/index.d.ts",
-        "default": "./dist/favicon-crawler.cjs"
+        "default": "./dist/icon-fetcher.cjs"
       },
-      "default": "./dist/favicon-crawler.umd.cjs"
+      "default": "./dist/icon-fetcher.umd.cjs"
     }
   },
   "scripts": {
