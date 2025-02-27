@@ -1,4 +1,7 @@
 # icon-fetcher
+
+Be inspired by [favicon-stealer](https://github.com/iAmCorey/favicon-stealer)
+
 A vue component to get clear and consistent favicon of a website easily.
 
 
