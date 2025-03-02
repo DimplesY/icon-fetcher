@@ -27,7 +27,6 @@ import { Favicon } from 'icon-fetcher'
 | ---- | ---- | ----------- |
 | `url` | `string` | The URL of the website to fetch the favicon for. |
 | `size` | `number` | The size of the favicon in pixels. Default is 32. |
-| `className` | `string` | A class name to apply to the element. |
 | `timeout` | `number` | The timeout in milliseconds for fetching the favicon. Default is 3000 (3 seconds). |
 | `lazy` | `boolean` | Whether to load the favicon lazily. Default is false. |
 | `border` | `boolean` | Whether to show a border around the favicon. Default is false. |
