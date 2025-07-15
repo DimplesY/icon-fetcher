@@ -23,7 +23,7 @@ export default defineConfig({
     target: 'es2015',
     lib: {
       entry: resolve(__dirname, './src/index.ts'),
-      name: 'FaviconCrawler',
+      name: 'IconFetcher',
       fileName: 'icon-fetcher',
       formats: ['es', 'umd', 'cjs', 'iife']
     },
